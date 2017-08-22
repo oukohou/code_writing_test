@@ -16,6 +16,9 @@ public class Shuffle_cards {
     public int[] shuffle_cards(int[] array, int n, int k) {
         int[] temp = new int[n];
         for (int i = 0; i < k; i++) {
+            for (int j = 0; j < n; j++) {
+                temp[j] = array[n + j];
+            }
 //            System.arraycopy(array, n + 0, temp, 0, n);
             for (int j = 0; j < n; j++) {
                 array[2 * n - 2 * j - 1] = temp[n - j - 1];

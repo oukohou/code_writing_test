@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * Created by oukohou_ on 2017/8/17.
+ * <p>
  * <p> 华为机试题：模块依赖。
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
