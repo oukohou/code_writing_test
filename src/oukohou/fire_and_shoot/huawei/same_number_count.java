@@ -1,4 +1,4 @@
-package huawei;
+package oukohou.fire_and_shoot.huawei;
 
 import java.util.Scanner;
 

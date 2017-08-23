@@ -1,4 +1,4 @@
-package exercise.alibaba;
+package oukohou.exercise.alibaba;
 
 /**
  * Created by oukohou_ on 2017/8/17.
@@ -10,6 +10,6 @@ package exercise.alibaba;
 public class Big_decimal {
 
     public static void main(String[] args) {
-        
+
     }
 }
