@@ -12,10 +12,6 @@ import java.util.Scanner;
 public class search_substring {
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> add some more .
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
