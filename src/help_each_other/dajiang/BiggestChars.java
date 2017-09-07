@@ -8,6 +8,14 @@ import java.util.Scanner;
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
  * Maybe the answer, my friend, is blowing in the wind.
+ * problem:
+ * 用数字代替字符串，求当前串在所有字符串中能否数值最大。
+ * tips：
+ * 几种情况下不是最大：
+ *  1.当前字符串是其他字符串的子串；
+ *  2.当前字符串的长度比其他字符串的长度小2或者更多，注意小于1的时候可以将另外字符串首字母置为0，可以最大；
+ *  3.当前字符串与另外字符串的首字母相同，但长度更小；
+ *  4.当前字符串与其他字符串前缀相同，但数值没有别人大：如：当前是aaabc， 其余字符串是aaaab，baaaa； //该点未解决。
  */
 public class BiggestChars {
 

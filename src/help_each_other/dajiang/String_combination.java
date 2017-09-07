@@ -7,6 +7,10 @@ import java.util.LinkedList;
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
  * Maybe the answer, my friend, is blowing in the wind.
+ * problem：
+ * 字符串中有多少dji的组合；
+ * tips：
+ *  遍历，统计所有d、i在某位置之前的个数和所有j的位置，然后遍历j的位置，该位置之前d的个数乘以该位置之后i的个数；
  */
 public class String_combination {
 

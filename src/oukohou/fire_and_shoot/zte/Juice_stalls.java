@@ -53,6 +53,5 @@ public class Juice_stalls {
         int[] juice = {2, 3, 5};
         int re = new Juice_stalls().findMinNumberOfJuiceStalls(3, dist, juice, 15, 5);
         System.out.println(re);
-
     }
 }

@@ -5,6 +5,10 @@ package help_each_other.meituan;
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
  * Maybe the answer, my friend, is blowing in the wind.
+ * problem：
+ * 分组循环批改作业，不能重复批改到自己的；
+ * tips：
+ * 排序之后，只需要最大值小于其余值的和。
  */
 public class homework_correction {
     public void yes_or_no(int[] groups) {
