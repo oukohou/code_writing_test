@@ -1,4 +1,4 @@
-package help_each_other.meituan;
+package pleasure.meituan;
 
 /**
  * Created by oukohou on 2017/8/31.
