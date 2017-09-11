@@ -9,3 +9,5 @@ sign~~painful me...
 if this is useful to others, then it's really my great honor.
 
 in case anybody wanna inform me, feel free to email to <oukohou@outlook.com> please.
+
+and, any fork or star is highly appreciated! that is my impetus! 
