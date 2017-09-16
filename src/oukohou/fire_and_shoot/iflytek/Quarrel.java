@@ -8,6 +8,10 @@ import java.util.Scanner;
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
  * Maybe the answer, my friend, is blowing in the wind.
+ * tips:
+ *  第一个R和最后一个L之间的串全部可以“踢出去”，所以只需找到第一个R和最后一个Ｌ的下标；
+ *  若indexR > index L , 查找失败，输出字符串长度length；
+ *  否则输出 length - (lastL - firstR)
  */
 public class Quarrel {
 
@@ -21,12 +25,12 @@ public class Quarrel {
         int firstR = 0, lastL = length - 1;
         boolean foundR = false, foundL = false;
         for (int i = 0; i < length; i++) {
-            if (chars[i] == 'R' && !foundR) {
+            if (chars[i] == 'R' && !foundR) {// 查找第一个R
                 foundR = true;
                 firstR = i;
             }
 
-            if (chars[length - 1 - i] == 'L' && !foundL) {
+            if (chars[length - 1 - i] == 'L' && !foundL) {// 查找第一个L
                 foundL = true;
                 lastL = length - 1 - i;
             }
@@ -35,7 +39,7 @@ public class Quarrel {
                 break;
             }
         }
-        if (foundL && foundR && firstR < lastL) {
+        if (foundL && foundR && firstR < lastL) { // 找到，并且R在L左边，则更新sum
             sum = length - (lastL - firstR);
         }
         return sum;
