@@ -8,10 +8,15 @@ import java.util.*;
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
  * Maybe the answer, my friend, is blowing in the wind.
+ * problem:
+ *  球赛排名，输出前 1/2 的队伍，排序规则为： 得分/净胜球数/胜场数。
  */
 class Team {
     int score;
+    int winBalls;
+    int winGames;
     char name;
+
 
     public Team(char ch) {
         this.name = ch;

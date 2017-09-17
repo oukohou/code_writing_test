@@ -8,6 +8,8 @@ import java.util.Scanner;
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
  * Maybe the answer, my friend, is blowing in the wind.
+ * problem:
+ *  争吵：形如的 LLLLRRRRLLRRR 任意字符串，消去规则为满足 RL 则消去任意一个，求消去后的最短长度。
  * tips:
  *  第一个R和最后一个L之间的串全部可以“踢出去”，所以只需找到第一个R和最后一个Ｌ的下标；
  *  若indexR > index L , 查找失败，输出字符串长度length；
